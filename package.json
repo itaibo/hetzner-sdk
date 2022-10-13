@@ -1,6 +1,6 @@
 {
   "name": "hetzner-sdk",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Hetzner SDK for JavaScript",
   "scripts": {
     "build": "rm -rf ./dist && npm run build:esm && npm run build:cjs && sh ./scripts/build-packages.sh",
