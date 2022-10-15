@@ -48,7 +48,7 @@ const metrics = await hetzner.servers.getMetrics(serverId, {
 });
 
 // Update a server
-const updatedServer = await hetzner.servers.get(serverId, {
+const updatedServer = await hetzner.servers.update(serverId, {
 	name: 'AnotherServerName',
 	labels: {
 		environment: 'production',	
