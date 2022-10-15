@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-interface RequestParameters {
+export interface RequestParameters {
 	method?: string;
 	url?: string;
 	data?: object;
