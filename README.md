@@ -26,6 +26,13 @@ I will be adding new methods. Please open issues of the methods you need and I'l
 
 ### Servers
 ```js
+// Create a server
+const newServer = await hetzner.servers.create({
+	image: 'ubuntu-20.04',
+	server_type: 'cx11',
+	name: 'ServerName',
+});
+
 // List all servers in a project
 const servers = await hetzner.servers.list();
 
@@ -42,7 +49,7 @@ const metrics = await hetzner.servers.getMetrics(serverId, {
 
 // Update a server
 const updatedServer = await hetzner.servers.get(serverId, {
-	name: 'GoodServer',
+	name: 'AnotherServerName',
 	labels: {
 		environment: 'production',	
 	},
