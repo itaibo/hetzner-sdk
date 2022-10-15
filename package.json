@@ -30,5 +30,18 @@
       "require": "./dist/cjs/index.js",
       "types": "./dist/esm/index.d.ts"
     }
+  },
+  "keywords": [
+    "hetzner",
+    "sdk",
+    "cloud"
+  ],
+  "homepage": "https://github.com/itaibo/hetzner-sdk#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itaibo/hetzner-sdk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/itaibo/hetzner-sdk/issues"
   }
 }
