@@ -43,5 +43,8 @@
   },
   "bugs": {
     "url": "https://github.com/itaibo/hetzner-sdk/issues"
-  }
+  },
+  "files": [
+    "dist/**/*"
+  ]
 }
